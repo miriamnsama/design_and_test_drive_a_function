@@ -1,2 +1,2 @@
 def includes_todo(notes):
-    return True
+    return "#TODO" in notes
