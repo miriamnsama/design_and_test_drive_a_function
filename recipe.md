@@ -4,11 +4,24 @@ Copy this into a `recipe.md` in your project and fill it out.
 
 ## 1. Describe the Problem
 
-_Put or write the user story here. Add any clarifying notes you might have._
+<!-- 
+As a user
+So that I can find my tasks among all my notes
+I want to check if a line from my notes includes the string `#TODO`. 
+-->
+
 
 ## 2. Design the Function Signature
 
 _Include the name of the function, its parameters, return value, and side effects._
+
+<!-- 
+Function to let us know if the line contains #TODO
+def includes_todo(notes):
+    Return True if #TODO is in the notes
+
+
+ -->
 
 ```python
 # EXAMPLE
@@ -31,6 +44,29 @@ def extract_uppercase(mixed_words):
 ## 3. Create Examples as Tests
 
 _Make a list of examples of what the function will take and return._
+
+<!--
+    tests includes 'Take the bins out #TODO'
+    assert True
+
+def test_includes_todo()
+
+    tests includes 'take the bins out'
+    assert False
+
+def test_doesnt_inlcude_TODO()
+
+
+    tests includes '#todo' in lower case
+    assert True
+
+    either upper() or lower()
+
+  -->
+
+
+
+
 
 ```python
 # EXAMPLE
