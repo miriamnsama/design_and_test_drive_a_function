@@ -1,2 +1,5 @@
 def includes_todo(notes):
-    return "#TODO" in notes
+    if '#todo' in notes.lower():
+        return True
+    else:
+        return False

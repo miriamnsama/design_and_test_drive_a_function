@@ -7,3 +7,8 @@ def test_TODO_present():
 
 def test_TODO_not_present():
     assert includes_todo('call the dentist') == False
+
+# test for lower case todo
+
+def test_TODO_lower_case():
+    assert includes_todo('call the dentist #todo') == True
